@@ -16,7 +16,7 @@
   </a>
   <h3 align="center">etl-sdw2023</h3>
   <p align="center">
-    A ETL for the Santander Dev Week 2023 database.
+    An ETL pipeline for the Santander Dev Week 2023 database.
     <br />
     <a href="https://github.com/voaneves/etl-sdw2023"><strong>Explore the documentation »</strong></a>
     <br />
