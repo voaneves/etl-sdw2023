@@ -118,7 +118,16 @@ This project includes the following features:
 
 ## Getting started
 
-1. Open the link 
+1. Clone this repository to your machine:
+
+   ```bash
+   git clone https://github.com/voaneves/color-picker.git
+
+   ```
+
+2. You can open [this link](https://github.com/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb) to see results too.
+   
+2. Or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
