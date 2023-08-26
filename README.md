@@ -121,7 +121,7 @@ This project includes the following features:
 1. Clone this repository to your machine:
 
    ```bash
-   git clone https://github.com/voaneves/color-picker.git
+   git clone https://github.com/voaneves/etl-sdw2023.git
 
    ```
 
