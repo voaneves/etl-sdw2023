@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/voaneves/etl-sdw2023">
-    <img src="img/etl-sdw2023-logo.png" alt="Logo" width="100" height="91">
+    <img src="img/etl-sdw2023-logo.png" alt="Logo" width="200" height="182">
   </a>
   <h3 align="center">etl-sdw2023</h3>
   <p align="center">
