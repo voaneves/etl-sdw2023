@@ -1,85 +1,85 @@
-<a name="readme-top"></a>
+<a id="top"></a>
+
 <div align="center">
-  
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![MIT License][license-shield]][license-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-light.svg" />
+  <img alt="etl-sdw2023 logo: the monogram Et" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-light.svg" width="112" height="112" />
+</picture>
+
+<h1>etl-sdw2023</h1>
+
+<p>
+  <strong>Generates personalized investment messages for bank customers using generative AI.</strong><br />
+  <sub>Python ETL notebook for the Santander Dev Week 2023</sub>
+</p>
+
+<p>
+  <a href="https://voaneves.github.io/etl-sdw2023/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/landing-dark.svg" /><img alt="View landing page" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/landing-light.svg" height="40" /></picture></a>
+  <a href="https://colab.research.google.com/github/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/colab-dark.svg" /><img alt="Open in Colab" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/colab-light.svg" height="40" /></picture></a>
+</p>
+
+<p><sub>Need something like this? <a href="https://voaneves.com/en/#contact"><strong>Let's talk →</strong></a></sub></p>
+
+<p>
+  <a href="https://github.com/voaneves/etl-sdw2023/blob/main/LICENSE"><img src="https://img.shields.io/github/license/voaneves/etl-sdw2023?style=flat-square&color=0A0A0A" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/Python-Pandas-b80000?style=flat-square" alt="Python and Pandas" />
+  <a href="https://github.com/voaneves/etl-sdw2023/issues"><img src="https://img.shields.io/github/issues/voaneves/etl-sdw2023?style=flat-square&color=0A0A0A" alt="Open issues" /></a>
+</p>
+
+<p>
+  <a href="#about-the-project">About</a> ·
+  <a href="#technologies-used">Technologies</a> ·
+  <a href="#features">Features</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#contact">Contact</a>
+</p>
 
 </div>
-<br />
-<div align="center">
-  <a href="https://github.com/voaneves/etl-sdw2023">
-    <img src="img/etl-sdw2023-logo.png" alt="Logo" width="200" height="182">
-  </a>
-  <h3 align="center">etl-sdw2023</h3>
-  <p align="center">
-    An ETL pipeline for the Santander Dev Week 2023 database.
-    <br />
-    <a href="https://github.com/voaneves/etl-sdw2023"><strong>Explore the documentation »</strong></a>
-    <br />
-    <br />
-    <a href="https://voaneves.com/etl-sdw2023">View Demo</a>
-    ·
-    <a href="https://github.com/voaneves/etl-sdw2023/issues">Report a Bug</a>
-    ·
-    <a href="https://github.com/voaneves/etl-sdw2023/issues">Request a Feature</a>
-  </p>
-</div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About the Project</a>
-      <ul>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-      </ul>
-    </li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#getting-started">Getting started</a></li>
-    <li><a href="#to-do">To Do</a></li>
-    <li><a href="#reporting-bugs">Reporting Bugs</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/brand/rule-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/brand/rule-light.svg" />
+  <img alt="" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/brand/rule-light.svg" width="100%" />
+</picture>
 
 ## About the project
 
-Este projeto foi desenvolvido como parte das iniciativas da Santander Dev Week 2023 e visa a implementação de um pipeline ETL eficaz para personalizar mensagens de marketing para clientes do Santander usando IA generativa. Utilizando dados dos clientes e a API do Google Bard, nosso objetivo é gerar mensagens que não apenas capturam a essência das necessidades e comportamentos financeiros individuais, mas também enfatizam a importância de tomar decisões de investimento informadas.
+Este projeto gera mensagens de investimento personalizadas para clientes de um banco a partir dos dados de cada um, usando IA generativa.
+
+Foi desenvolvido como parte das iniciativas da Santander Dev Week 2023 e visa a implementação de um pipeline ETL eficaz para personalizar mensagens de marketing para clientes do Santander usando IA generativa. Utilizando dados dos clientes e a API do Google Bard, nosso objetivo é gerar mensagens que não apenas capturam a essência das necessidades e comportamentos financeiros individuais, mas também enfatizam a importância de tomar decisões de investimento informadas.
 
 Abaixo é um exemplo de output:
 
-> **Resposta baseada em regras:**                                                     
->                                                                                 
-> Olá Devweekerson,                                                               
-> Iniciar o investimento com um orçamento apertado é um desafio, mas não          
-> impossível.                                                                     
-> Com seu limite de cartão mais elevado, você tem a liberdade de explorar uma     
-> variedade de investimentos.Investir é a chave para multiplicar seu dinheiro.    
-> Não deixe sua grana parada! Vamos investir?                                     
->                                                                                
-> **Mensagem do Bard:**                                                               
->                                                                                                                             
-> Olá Devweekerson,                                                           
->                                                                                 
-> Vi que você tem um saldo de R$ 624,12 e um limite de crédito de R$ 2.000,00.  
-> Isso é um bom começo, mas você pode fazer mais para melhorar sua situação       
-> financeira.                                                                     
->                                                                                 
-> Os investimentos são uma ótima forma de fazer seu dinheiro crescer. Eles      
-> podem ajudá-lo a alcançar seus objetivos financeiros, como comprar uma casa,    
-> viajar ou se aposentar.                                                         
->                                                                                 
-> Existem muitos tipos de investimentos diferentes, por isso é importante fazer 
-> sua pesquisa e encontrar o que é certo para você. Eu posso ajudá-lo com isso.   
->                                                                                 
-> Entre em contato comigo para agendar uma consulta.                            
->                                                                                 
-> Atenciosamente,                                                               
-> Banqueiro expert 
+> **Resposta baseada em regras:**
+>
+> Olá Devweekerson,
+> Iniciar o investimento com um orçamento apertado é um desafio, mas não
+> impossível.
+> Com seu limite de cartão mais elevado, você tem a liberdade de explorar uma
+> variedade de investimentos.Investir é a chave para multiplicar seu dinheiro.
+> Não deixe sua grana parada! Vamos investir?
+>
+> **Mensagem do Bard:**
+>
+> Olá Devweekerson,
+>
+> Vi que você tem um saldo de R$ 624,12 e um limite de crédito de R$ 2.000,00.
+> Isso é um bom começo, mas você pode fazer mais para melhorar sua situação
+> financeira.
+>
+> Os investimentos são uma ótima forma de fazer seu dinheiro crescer. Eles
+> podem ajudá-lo a alcançar seus objetivos financeiros, como comprar uma casa,
+> viajar ou se aposentar.
+>
+> Existem muitos tipos de investimentos diferentes, por isso é importante fazer
+> sua pesquisa e encontrar o que é certo para você. Eu posso ajudá-lo com isso.
+>
+> Entre em contato comigo para agendar uma consulta.
+>
+> Atenciosamente,
+> Banqueiro expert
 
 O fluxo de trabalho é composto por várias etapas de ETL (Extração, Transformação e Carregamento), incluindo:
 
@@ -88,8 +88,6 @@ O fluxo de trabalho é composto por várias etapas de ETL (Extração, Transform
 3. Exibição dessas mensagens de uma forma que seja tanto atraente quanto informativa
 
 A implementação é feita em Python, utilizando várias bibliotecas e APIs para realizar as tarefas necessárias.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Technologies Used
 
@@ -101,9 +99,7 @@ The project uses the following technologies:
 - Google Bard API
 - Santander Dev Week 2023 API (Swagger UI)
 
-It's one of the projects of the **Santander Bootcamp 2023 - Data Science with Python**.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Built for the **Santander Bootcamp 2023 (Data Science with Python)**.
 
 ## Features
 
@@ -114,63 +110,45 @@ This project includes the following features:
 - Exibição dessas mensagens de forma atraente e informativa
 - Possibilidade de integração com outros APIs através do requests
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Getting started
 
-1. Clone this repository to your machine:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/voaneves/etl-sdw2023.git
-
    ```
 
-2. You can open [this link](https://github.com/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb) to see results too.
-   
-2. Or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb) and add the `SDW2023.csv` file ([in here](https://github.com/voaneves/etl-sdw2023/blob/main/SDW2023.csv))
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2. Read the results without running anything in the
+   [notebook on GitHub](https://github.com/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb).
+3. Or [open it in Colab](https://colab.research.google.com/github/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb) and upload
+   [`SDW2023.csv`](https://github.com/voaneves/etl-sdw2023/blob/main/SDW2023.csv).
 
 ## To do
 
 - [ ] Integração com outras APIs de IA
 - [ ] Melhorias na interface do usuário
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Reporting bugs
 
-Found a bug or issue in the project? Follow the steps below:
+1. Check whether the bug is already in [Issues](https://github.com/voaneves/etl-sdw2023/issues).
+2. If not, open a new issue with a clear title and the steps to reproduce it.
+3. If possible, include screenshots or the notebook cell that fails.
 
-1. Check if the bug has already been reported in our "Issues" section on GitHub: link to Issues.
+Pull requests are welcome.
 
-2. If you don't find an existing report about the bug, click on "New Issue" to open a new bug report.
+## Contact
 
-3. Provide a clear and descriptive title for the bug, along with a detailed description of the steps needed to reproduce it.
+<p>
+  <a href="https://voaneves.com/en/#contact"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/hire-dark.svg" /><img alt="Let's talk" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/hire-light.svg" height="40" /></picture></a>
+  <a href="https://voaneves.com/en/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/site-dark.svg" /><img alt="voaneves.com" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/buttons/site-light.svg" height="40" /></picture></a>
+</p>
 
-4. If possible, include screenshots, relevant code snippets, or any other information that may help identify and resolve the bug.
+<a href="https://linkedin.com/in/voaneves">LinkedIn</a> · <a href="mailto:victorneves478@gmail.com">E-mail</a>
 
-5. Click on "Submit Issue" to create the bug report.
+<p align="center">
+  <img alt="VOANEVES mark" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/brand/mark-duo.svg" width="32" height="32" />
+</p>
 
-Thank you for reporting bugs! If you would like to contribute with code, you can open a PR, and your participation is more than welcome.
+<p align="center"><sub>Released under the <a href="https://github.com/voaneves/etl-sdw2023/blob/main/LICENSE">MIT License</a>.</sub></p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## License
-
-This project is licensed under the [MIT License](/LICENSE).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/voaneves/etl-sdw2023.svg?style=for-the-badge
-[contributors-url]: https://github.com/voaneves/etl-sdw2023/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/voaneves/etl-sdw2023.svg?style=for-the-badge
-[forks-url]: https://github.com/voaneves/etl-sdw2023/network/members
-[stars-shield]: https://img.shields.io/github/stars/voaneves/etl-sdw2023.svg?style=for-the-badge
-[stars-url]: https://github.com/voaneves.com/etl-sdw2023/stargazers
-[issues-shield]: https://img.shields.io/github/issues/voaneves/etl-sdw2023.svg?style=for-the-badge
-[issues-url]: https://github.com/voaneves/etl-sdw2023/issues
-[license-shield]: https://img.shields.io/github/license/voaneves/etl-sdw2023.svg?style=for-the-badge
-[license-url]: https://github.com/voaneves/etl-sdw2023/blob/main/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/voaneves
+<p align="center"><sub><a href="#top">↑ Back to top</a></sub></p>

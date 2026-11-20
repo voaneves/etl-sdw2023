@@ -1,0 +1,53 @@
+{
+  "repo": "etl-sdw2023",
+  "branch": "main",
+  "lang": "en",
+  "license": "MIT",
+  "name": "etl-sdw2023",
+  "tagline": "Generates personalized investment messages for bank customers using generative AI.",
+  "description": "ETL pipeline that extracts customer IDs from a CSV, generates personalized messages with generative AI and displays them.",
+  "logo": {
+    "mark": "Et"
+  },
+  "buttons": [
+    {
+      "id": "landing",
+      "text": "View landing page",
+      "kind": "primary",
+      "font": "sans",
+      "href": "https://voaneves.github.io/etl-sdw2023/",
+      "landing": false
+    },
+    {
+      "id": "colab",
+      "text": "Open in Colab",
+      "kind": "secondary",
+      "href": "https://colab.research.google.com/github/voaneves/etl-sdw2023/blob/main/Personaliza%C3%A7%C3%A3o_de_Engajamento_de_Clientes_no_Santander_usando_IA_Generativa.ipynb",
+      "landing_kind": "primary",
+      "font": "sans"
+    },
+    {
+      "id": "hire",
+      "text": "Let's talk",
+      "kind": "primary",
+      "font": "sans",
+      "href": "https://voaneves.com/en/#contact",
+      "landing": false
+    },
+    {
+      "id": "site",
+      "text": "voaneves.com",
+      "kind": "secondary",
+      "font": "sans",
+      "href": "https://voaneves.com/en/",
+      "landing": false
+    }
+  ],
+  "features": [
+    "Extracts user IDs from the SDW2023.csv spreadsheet.",
+    "Generates personalized marketing messages with Google Bard.",
+    "Displays the messages and can integrate with other APIs via requests."
+  ],
+  "landing": true,
+  "live_url": "https://voaneves.github.io/etl-sdw2023/"
+}
