@@ -7,6 +7,7 @@
   "tagline": "Generates personalized investment messages for bank customers using generative AI.",
   "description": "ETL pipeline that extracts customer IDs from a CSV, generates personalized messages with generative AI and displays them.",
   "logo": {
+    "glyph": "etl",
     "mark": "Et"
   },
   "buttons": [

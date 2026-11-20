@@ -5,7 +5,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-light.svg" />
-  <img alt="etl-sdw2023 logo: the monogram Et" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-light.svg" width="112" height="112" />
+  <img alt="etl-sdw2023 logo: data lines converging into an arrow, with a red dot for the loaded record" src="https://raw.githubusercontent.com/voaneves/etl-sdw2023/main/assets/logo/logo-light.svg" width="112" height="112" />
 </picture>
 
 <h1>etl-sdw2023</h1>
